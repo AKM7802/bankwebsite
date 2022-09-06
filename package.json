@@ -5,11 +5,9 @@
   "main": "lectures.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"harp server --port $PORT"
+    "start": "harp server"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "harp": "^0.42.0"
-  }
+  "dependencies": {}
 }

@@ -4,8 +4,12 @@
   "description": "",
   "main": "lectures.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"harp server --port $PORT"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "harp": "^0.42.0"
+  }
 }
